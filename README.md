@@ -21,8 +21,8 @@ Use my code qml_to_colortxt.py (to make color.txt from QGIS colorscale)
 gdaldem color-relief temp/Aedes_pl_PEM_pop_viz.tif color_riesgo_dengue.txt temp/colored_raster.tif 
 python gdal2tilesXYZ.py -v -x -e -z 3-13 -r near temp/colored_raster.tif ../tiles/amazon/Dengue_PEM_Peor_Lluvio 
 ``` 
-## 3/ Push it to this repo!
-
+## 3/ Push it to this repo
+And link the corresponding URL to call your tileset in a map!
 
 ______
 
