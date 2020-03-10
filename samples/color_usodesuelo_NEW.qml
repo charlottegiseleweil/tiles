@@ -1,15 +1,17 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.18.19" minimumScale="inf" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <pipe>
-    <rasterrenderer opacity="1" alphaBand="-1" classificationMax="19" classificationMinMaxOrigin="User" band="1" classificationMin="1" type="singlebandpseudocolor">
+    <rasterrenderer opacity="1" alphaBand="-1" classificationMax="27" classificationMinMaxOrigin="User" band="1" classificationMin="1" type="singlebandpseudocolor">
       <rasterTransparency/>
       <rastershader>
         <colorrampshader colorRampType="EXACT" clip="0">
+          <item alpha="0" value="0" label="No data" color="#fffff"/>
           <item alpha="255" value="1" label="Bosque inundable" color="#3f8f67"/>
           <item alpha="255" value="2" label="Bosque no inundable" color="#0f6837"/>
           <item alpha="255" value="3" label="Vegetacion Secundaria" color="#33a02c"/>
           <item alpha="255" value="4" label="Humedales" color="#70cfcc"/>
           <item alpha="255" value="5" label="Sabana humedales" color="#f4df8a"/>
+          <item alpha="255" value="7" label="Areas de recuperacíon" color="#d5a820"/>
           <item alpha="255" value="8" label="Pasto/Herbazal" color="#fdbf6f"/>
           <item alpha="255" value="9" label="Pasto" color="#fdbf6f"/>
           <item alpha="255" value="10" label="Agropecuaria" color="#fdbfbd"/>
@@ -29,7 +31,7 @@
           <item alpha="255" value="24" label="Agroforesteria" color="#c7d500"/>
           <item alpha="255" value="25" label="Silvopastoril" color="#1effc3"/>
           <item alpha="255" value="26" label="Silvicultura" color="#9a1eff"/>
-          <item alpha="255" value="27" label="Reforestacion" color="#0a5710"/>
+          <item alpha="0" value="27" label="NO DATA" color="#0a5710"/>
           <item alpha="0" value="9999" label="NO DATA" color="#ff00d1"/>
         </colorrampshader>
       </rastershader>
