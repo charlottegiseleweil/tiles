@@ -3,7 +3,7 @@
           <head>
             <meta charset="utf-8">
             <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-            <title>colored_raster.tif</title>
+            <title>colored_LU_LC_TAH_PEOR.tif</title>
 
             <!-- Leaflet -->
             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
@@ -57,7 +57,7 @@
 
         // Map
         var map = L.map('map', {
-            center: [-10.9902666098511, -70.43831899227088],
+            center: [-10.990231862129562, -70.43856682894088],
             zoom: 13,
             minZoom: 3,
             maxZoom: 13,
@@ -75,7 +75,7 @@
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "colored_raster.tif";
+            this._div.innerHTML = "colored_LU_LC_TAH_PEOR.tif";
         };
         title.addTo(map);
 
@@ -97,7 +97,7 @@
         L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
 
         // Fit to overlay bounds (SW and NE points with (lat, lon))
-        map.fitBounds([[-12.117204043477658, -68.64670009897496], [-9.863329176224541, -72.2299378855668]]);
+        map.fitBounds([[-12.124329023152177, -68.63978674711], [-9.85613470110695, -72.23734691077178]]);
 
         </script>
 

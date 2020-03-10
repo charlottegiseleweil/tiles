@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>colored_raster.tif</Title>
+      <Title>colored_LU_LC_TAH_PEOR.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-72.22993788556680" miny="-12.11720404347766" maxx="-68.64670009897496" maxy="-9.86332917622454"/>
-      <Origin x="-72.22993788556680" y="-12.11720404347766"/>
+      <BoundingBox minx="-72.23734691077178" miny="-12.12432902315218" maxx="-68.63978674710999" maxy="-9.85613470110695"/>
+      <Origin x="-72.23734691077178" y="-12.12432902315218"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="3" units-per-pixel="19567.87923750000118" order="3"/>
