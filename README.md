@@ -11,7 +11,7 @@ Use my code qml_to_colortxt.py (to make color.txt from QGIS colorscale)
 
 ## 2/ Make tileset
 ### 2a/ Coloring step
-```gdaldem color-relief raster.tif color.txt temp/colored_raster.tif ```
+```gdaldem color-relief -alpha raster.tif color.txt temp/colored_raster.tif ```
 
 ### 2b/ Build tiles 
 ``` python gdal2tilesXYZ.py -v -x -e -z 3-13 -r near temp/colored_raster.tif tileset_Folder ``` 
