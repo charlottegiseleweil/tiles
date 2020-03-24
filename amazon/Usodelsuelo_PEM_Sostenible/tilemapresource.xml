@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>colored_PEM_SOST_full_extent.tif</Title>
+      <Title>PEM_SOST_colored.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-70.63439130571622" miny="-13.30864852475027" maxx="-68.67083402922108" maxy="-12.28649375087265"/>
-      <Origin x="-70.63439130571622" y="-13.30864852475027"/>
+      <BoundingBox minx="-70.56184852519299" miny="-13.22192223455962" maxx="-68.71420173828847" maxy="-12.40867691272619"/>
+      <Origin x="-70.56184852519299" y="-13.22192223455962"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="3" units-per-pixel="19567.87923750000118" order="3"/>
