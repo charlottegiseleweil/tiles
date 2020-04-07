@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>colored_dengue_coarse_fut_sost.tif</Title>
+      <Title>colored_dengue_PM_coarse_fut_sost_theta.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
-      <BoundingBox minx="-70.51884978866117" miny="-13.20714811125681" maxx="-68.99620538207859" maxy="-12.39248292690372"/>
-      <Origin x="-70.51884978866117" y="-13.20714811125681"/>
+      <BoundingBox minx="-70.55807457461532" miny="-13.21771597312002" maxx="-68.71428245396000" maxy="-12.41185834095903"/>
+      <Origin x="-70.55807457461532" y="-13.21771597312002"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="mercator">
         <TileSet href="3" units-per-pixel="19567.87923750000118" order="3"/>

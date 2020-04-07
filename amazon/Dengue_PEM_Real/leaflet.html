@@ -3,7 +3,7 @@
           <head>
             <meta charset="utf-8">
             <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-            <title>colored_dengue_coarse_fut_rea.tif</title>
+            <title>colored_dengue_PM_coarse_fut_rea_theta.tif</title>
 
             <!-- Leaflet -->
             <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
@@ -57,7 +57,7 @@
 
         // Map
         var map = L.map('map', {
-            center: [-12.799815519080262, -69.75752758536987],
+            center: [-12.814787157039525, -69.63617851428765],
             zoom: 13,
             minZoom: 3,
             maxZoom: 13,
@@ -75,7 +75,7 @@
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "colored_dengue_coarse_fut_rea.tif";
+            this._div.innerHTML = "colored_dengue_PM_coarse_fut_rea_theta.tif";
         };
         title.addTo(map);
 
@@ -97,7 +97,7 @@
         L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
 
         // Fit to overlay bounds (SW and NE points with (lat, lon))
-        map.fitBounds([[-13.207148111256808, -68.99620538207859], [-12.392482926903718, -70.51884978866117]]);
+        map.fitBounds([[-13.217715973120018, -68.71428245396], [-12.411858340959034, -70.55807457461532]]);
 
         </script>
 
