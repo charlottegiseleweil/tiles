@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>colored_dengue_TAH_coarse_fut_peor_theta.tif</Title>
+      <Title>colored_raster.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
       <BoundingBox minx="-72.21983183456838" miny="-12.11737519191860" maxx="-68.64902858019327" maxy="-9.87549821366746"/>

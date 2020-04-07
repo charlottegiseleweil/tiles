@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>colored_dengue_PM_coarse_pres_now_theta.tif</Title>
+      <Title>colored_raster.tif</Title>
       <Abstract></Abstract>
       <SRS>EPSG:3857</SRS>
       <BoundingBox minx="-70.55807457461532" miny="-13.21771597312002" maxx="-68.71428245396000" maxy="-12.41185834095903"/>
