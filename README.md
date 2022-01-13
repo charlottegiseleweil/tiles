@@ -23,7 +23,7 @@ python gdal2tilesXYZ.py -v -x -e -z 3-13 -r near temp/colored_raster.tif ../tile
 ``` 
 ## 3/ Push it to this repo
 And link the corresponding URL to call your tileset in a map!
-URL will be : https://charlottegiseleweil.github.io/tiles/{project}/{tileset}/{x}/{y}/{z} (I think, double check the end;) )
+URL will be : https://charlottegiseleweil.github.io/tiles/{project}/{tileset}/{z}/{x}/{y}.png 
 
 ______
 
